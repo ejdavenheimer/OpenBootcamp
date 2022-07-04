@@ -1,0 +1,54 @@
+import java.util.*;
+
+public class Main{
+    
+   
+    public static void main(String[] args) throws Exception {
+        // Your code here!
+       int numeroIf = 3;
+       
+       if(numeroIf >=0){
+           if(numeroIf == 0){
+               System.out.println("El número es cero");
+           } else{
+               System.out.println("El número es positivo");
+           }
+       } else{
+           System.out.println("El número es negativo");
+       }
+       
+       int numeroWhile = 1;
+       while(numeroWhile < 3){
+           numeroWhile++;
+           System.out.println("El valor de numeroWhile es: "+numeroWhile);
+       }
+       
+       do{
+           numeroWhile++;
+           System.out.println("El valor de numeroWhile en DoWhile es: "+numeroWhile);
+       } while(numeroWhile < 3);
+       
+       for(int numeroFor=0; numeroFor <=3; numeroFor++){
+           System.out.println("El valor de numeroFor es: "+numeroFor);
+       }
+       
+       int estacion=2;
+       switch(estacion){
+           case 1:
+                 System.out.println("La estación es Invierno");
+                 break;
+           case 2:
+               System.out.println("La estación es Primavera");
+               break;
+            case 3:
+                System.out.println("La estación es Verano");
+                break;
+            case 4:
+                System.out.println("La estación es Otoño");
+                break;
+            default:
+                System.out.println("Error de estacion");
+            
+       }
+    }
+}
