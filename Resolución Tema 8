@@ -1,7 +1,5 @@
 import java.util.*;
 
-public class Main{
-
 class Persona{
     private int edad;
     private String nombre;
@@ -34,7 +32,8 @@ class Persona{
         this.telefono = telefono;
     }
 } 
-   
+
+public class Main{   
     public static void main(String[] args) throws Exception {
         // Your code here!
         Persona miPersona = new Persona();
