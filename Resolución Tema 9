@@ -10,7 +10,7 @@ class Cliente extends Persona{
     double credito;
 }
 
-class Trabajador extends Trabajador{
+class Trabajador extends Persona{
     double salario;
 }
 public class Main{
