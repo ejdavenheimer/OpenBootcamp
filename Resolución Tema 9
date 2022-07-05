@@ -1,0 +1,31 @@
+import java.util.*;
+
+class Persona{
+    int edad;
+    String nombre;
+    int telefono;
+}
+    
+class Cliente extends Persona{
+    double credito;
+}
+
+public class Main{
+    
+   
+    public static void main(String[] args) throws Exception {
+        // Your code here!
+        Cliente miCliente = new Cliente();
+        
+        miCliente.edad = 24;
+        miCliente.nombre = "Emerson";
+        miCliente.telefono = 12344321;
+        miCliente.credito = 24.5;
+        
+        System.out.println("Edad: " + miCliente.edad);
+        System.out.println("Nombre: " + miCliente.nombre);
+        System.out.println("Teléfono: " + miCliente.telefono);
+        System.out.println("Crédito: " + miCliente.credito);
+       
+    }
+}
