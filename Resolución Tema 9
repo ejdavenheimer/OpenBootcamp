@@ -10,12 +10,16 @@ class Cliente extends Persona{
     double credito;
 }
 
+class Trabajador extends Trabajador{
+    double salario;
+}
 public class Main{
     
    
     public static void main(String[] args) throws Exception {
         // Your code here!
         Cliente miCliente = new Cliente();
+        Trabajador miTrabajador = new Trabajador(); 
         
         miCliente.edad = 24;
         miCliente.nombre = "Emerson";
@@ -26,6 +30,16 @@ public class Main{
         System.out.println("Nombre: " + miCliente.nombre);
         System.out.println("Teléfono: " + miCliente.telefono);
         System.out.println("Crédito: " + miCliente.credito);
+        
+        miTrabajador.edad = 22;
+        miTrabajador.nombre = "Roberto";
+        miTrabajador.telefono = 12344321;
+        miTrabajador.salario = 24500;
+        
+        System.out.println("Edad: " + miTrabajador.edad);
+        System.out.println("Nombre: " + miTrabajador.nombre);
+        System.out.println("Teléfono: " + miTrabajador.telefono);
+        System.out.println("Salario: " + miTrabajador.salario);
        
     }
 }
